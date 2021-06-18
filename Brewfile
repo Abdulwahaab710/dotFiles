@@ -8,6 +8,7 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "koekeishiya/formulae"
 tap "kryptco/tap"
+
 cask "java"
 cask "xquartz"
 brew "openssl"
@@ -59,8 +60,6 @@ brew "libtool"
 brew "graphviz", args: ["with-pango"]
 brew "highlight"
 brew "htop"
-brew "imagemagick", link: false
-brew "imagemagick@6", link: true
 brew "irssi"
 brew "jq"
 brew "librdkafka"
@@ -123,6 +122,7 @@ brew "heroku/brew/heroku"
 brew "koekeishiya/formulae/chunkwm"
 brew "koekeishiya/formulae/khd"
 brew "kryptco/tap/kr"
+
 cask "alfred"
 cask "binary-ninja"
 cask "brave"
@@ -130,17 +130,15 @@ cask "burp-suite"
 cask "ccmenu"
 cask "cloudapp"
 cask "dash"
-cask "discord"
 cask "docker"
 cask "dropbox"
 cask "firefox-nightly"
 cask "font-hack-nerd-font"
 cask "google-cloud-sdk"
-cask "graphiql"
+cask "graphql-playground"
 cask "hammerspoon"
 cask "imageoptim"
 cask "insomnia"
-cask "iterm2-beta"
 cask "karabiner-elements"
 cask "keepassx"
 cask "keybase"
@@ -165,11 +163,13 @@ cask "veracrypt"
 cask "virtualbox"
 cask "vlc"
 cask "wireshark"
-cask "wwdc"
 cask "zoomus"
+cask "muzzle"
+cask "kitty"
+
 mas "1Password 7", id: 1333542190
-mas "iMovie", id: 408981434
 mas "Monosnap", id: 540348655
 mas "Reeder", id: 880001334
 mas "uBlock", id: 1385985095
 mas "Xcode", id: 497799835
+mas "Amphetamine", id: 937984704
